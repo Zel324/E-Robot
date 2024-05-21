@@ -1,0 +1,90 @@
+/* GENERAL CONDUCT */
+.body-gc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+    
+.header-gc {
+    width: 40%;
+    z-index: 1;
+    margin-top: 30px;
+}
+
+.header-image {
+    height: auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.container-gc {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin: 20px;
+}
+
+.card-gc {
+    background-color: #fafafafa;
+    color: #00008b;
+    border-radius: 35px;
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+    padding: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+}
+
+.card-gc img {
+    width: 50%;
+    max-width: 200px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+.icon {
+    margin-bottom: 20px;
+    width: 100%;
+    height: auto;
+}
+
+p {
+    margin-bottom: 20px;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 320px) {
+    .header-gc {
+        width: 10%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container-gc {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .header-gc {
+        width: 70%;
+    }
+    .scrollable-section-gc {
+        height: 1050px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .container-gc {
+        gap: 3%;
+    }
+    .card-gc {
+        width: 100vh;
+    }
+}
