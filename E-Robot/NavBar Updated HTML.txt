@@ -1,0 +1,32 @@
+   </style>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    <header>
+        <div class="main">
+            <header class="header">
+                <span><a href="https://www.erovoutika.ph/"><ion-icon name="home-outline" class="house"></ion-icon></a></span>
+                <h1 class="rob">ROBOLUTION</h1>
+                <!-- Robolution's font need to be changed? -->
+                <nav class="navbar">
+                    <label>
+                        <input type="checkbox">
+                        <div class="toggle">
+                            <span class="top_line common"></span>
+                            <span class="middle_line common"></span>
+                            <span class="bottom_line common"></span>
+                        </div>
+                        <div class="slide">
+                            <ul>
+                                <li><a href="https://www.erovoutika.ph/">Home</a></li>
+                                <li><a href="https://www.erovoutika.ph/#news">News</a></li>
+                                <li><a href="#s3">Competition</a></li>
+                                <li><a href="https://www.erovoutika.ph/#contact">Contact</a></li>
+                            </ul>
+                        </div>
+                    </label>
+                </nav>
+            </header>
+        </div>
+    </header>
