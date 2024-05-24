@@ -1,0 +1,95 @@
+/* Participant Requirement */ 
+.body-pr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.header-pr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 38%;
+    z-index: 1;
+    margin-top: 30px;
+}
+
+.header-image-pr {
+    height: auto;
+}
+
+.container-pr {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin: 20px;
+}
+
+.card-pr {
+    background-color: #fafafafa;
+    color: #00008b;
+    border-radius: 35px;
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+    padding: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+}
+
+.card-pr img {
+    width: 50%;
+    max-width: 200px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+.icon {
+    margin-bottom: 20px;
+    width: 100%;
+    height: auto;
+}
+
+p {
+    margin-bottom: 20px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 320px) {
+    .header-pr {
+        width: 10%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container-pr {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .header-pr {
+        width: 70%;
+    }
+    .scrollable-section-pr {
+        height: 1050px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .card-pr {
+        width: 100vh;
+    }
+    .header-image-pr {
+        width: 80%;
+    }
+}
+
